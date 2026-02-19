@@ -1,16 +1,113 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <title>Cards Gallery</title>
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<div class="container mt-4">
+
+    <!-- Header -->
+    <h2 class="text-center mb-4">Cards Gallery</h2>
+
+    <!-- Gallery Row -->
+    <div class="row g-3">
+
+        <!-- Card 1 -->
+        <div class="col-md-4 col-sm-6">
+            <div class="card rounded">
+                <a href="https://picsum.photos/id/1015/600/400" data-lightbox="gallery">
+                    <img src="https://picsum.photos/id/1015/300/200" class="card-img-top" alt="Image1">
+                </a>
+                <div class="card-body text-center">
+                    <h6 class="card-title">Beautiful Nature</h6>
+                    <p class="card-text">A peaceful natural landscape.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4 col-sm-6">
+            <div class="card rounded">
+                <a href="https://picsum.photos/id/1016/600/400" data-lightbox="gallery">
+                    <img src="https://picsum.photos/id/1016/300/200" class="card-img-top" alt="Image2">
+                </a>
+                <div class="card-body text-center">
+                    <h6 class="card-title">Mountain View</h6>
+                    <p class="card-text">Amazing mountain scenery.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4 col-sm-6">
+            <div class="card rounded">
+                <a href="https://picsum.photos/id/1018/600/400" data-lightbox="gallery">
+                    <img src="https://picsum.photos/id/1018/300/200" class="card-img-top" alt="Image3">
+                </a>
+                <div class="card-body text-center">
+                    <h6 class="card-title">Forest Path</h6>
+                    <p class="card-text">A walk through the forest.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-4 col-sm-6">
+            <div class="card rounded">
+                <a href="https://picsum.photos/id/1020/600/400" data-lightbox="gallery">
+                    <img src="https://picsum.photos/id/1020/300/200" class="card-img-top" alt="Image4">
+                </a>
+                <div class="card-body text-center">
+                    <h6 class="card-title">Ocean Waves</h6>
+                    <p class="card-text">Relaxing ocean view.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-md-4 col-sm-6">
+            <div class="card rounded">
+                <a href="https://picsum.photos/id/1024/600/400" data-lightbox="gallery">
+                    <img src="https://picsum.photos/id/1024/300/200" class="card-img-top" alt="Image5">
+                </a>
+                <div class="card-body text-center">
+                    <h6 class="card-title">Wildlife</h6>
+                    <p class="card-text">Animals in their habitat.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-md-4 col-sm-6">
+            <div class="card rounded">
+                <a href="https://picsum.photos/id/1027/600/400" data-lightbox="gallery">
+                    <img src="https://picsum.photos/id/1027/300/200" class="card-img-top" alt="Image6">
+                </a>
+                <div class="card-body text-center">
+                    <h6 class="card-title">Sunset View</h6>
+                    <p class="card-text">Beautiful sunset colors.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Lightbox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 
 </body>
-
 </html>
+

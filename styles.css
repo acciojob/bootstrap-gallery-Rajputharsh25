@@ -1,1 +1,14 @@
-/*  your css code here. If applicable */
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card img {
+    border-radius: 12px 12px 0 0;
+    cursor: pointer;
+}
+
+.card-title,
+.card-text {
+    text-align: center;
+}
